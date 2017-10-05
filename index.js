@@ -27,6 +27,8 @@ function viewCart() {
       str += `${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
     } else if(item == cart.length - 1){
       str += `, and ${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
+    } else {
+      
     }
   }
   str += '.'
