@@ -20,6 +20,11 @@ function viewCart() {
     console.log("Your shopping cart is empty.")
     return true;
   }
+
+  let str = ""
+  for(let item in cart) {
+    
+  }
 }
 
 function total() {
