@@ -45,9 +45,11 @@ function total() {
 }
 
 function removeFromCart(item) {
+  let isRemoved = false
   for(let i in cart) {
     if(Object.keys(cart[i]) == item) {
       cart.splice(i, 1);
+      isRemoved = true;
     }
   }
 }
