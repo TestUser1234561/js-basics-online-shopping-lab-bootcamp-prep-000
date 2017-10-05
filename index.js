@@ -54,10 +54,13 @@ function removeFromCart(item) {
   }
 
   if(!isRemoved) {
-    console.log("That item is not in your cart.");
+    console.log("That item is not in your cart.")
   }
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if(cardNumber == "") {
+    console.log()
+    return false
+  }
 }
