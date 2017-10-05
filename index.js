@@ -26,7 +26,10 @@ function viewCart() {
     if(item == 0) {
       str += `${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
     } else if(item == cart.length - 1){
-      str += `, and ${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
+      if(cart.length != 2) {
+        str += `,`
+      }
+      str += ` and ${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
     } else {
       str += `, ${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
     }
