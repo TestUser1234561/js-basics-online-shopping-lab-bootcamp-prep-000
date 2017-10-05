@@ -46,7 +46,9 @@ function total() {
 
 function removeFromCart(item) {
   for(let item in cart) {
-    total += cart[item][Object.keys(cart[item])[0]]
+    if(Object.keys(cart[item]) == item) {
+      
+    }
   }
 }
 
