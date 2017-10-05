@@ -30,8 +30,8 @@ function viewCart() {
     } else {
 
     }
-    str += '.'
   }
+      str += '.'
   console.log(str);
 }
 
