@@ -39,7 +39,7 @@ function viewCart() {
 function total() {
   let total = 0;
   for(let item in cart) {
-    
+    total += cart[item][Object.keys(cart[item])[0]]
   }
 }
 
