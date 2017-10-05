@@ -23,7 +23,7 @@ function viewCart() {
 
   let str = "In your cart, you have "
   for(let item in cart) {
-
+    if(item == 1)
   }
 }
 
