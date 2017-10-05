@@ -41,6 +41,7 @@ function total() {
   for(let item in cart) {
     total += cart[item][Object.keys(cart[item])[0]]
   }
+  return total
 }
 
 function removeFromCart(item) {
