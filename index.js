@@ -26,9 +26,7 @@ function viewCart() {
     if(item == 0) {
       str += `${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
     } else if(item == cart.length - 1){
-      if(cart.length != 2) {
-        str += `,`
-      }
+      if(cart.length != 2) { str += `,` }
       str += ` and ${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
     } else {
       str += `, ${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}`
@@ -39,7 +37,7 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
+
 }
 
 function removeFromCart(item) {
