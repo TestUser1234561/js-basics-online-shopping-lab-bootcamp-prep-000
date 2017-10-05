@@ -21,9 +21,9 @@ function viewCart() {
     return true;
   }
 
-  let str = ""
+  let str = "In your cart, you have "
   for(let item in cart) {
-    
+
   }
 }
 
