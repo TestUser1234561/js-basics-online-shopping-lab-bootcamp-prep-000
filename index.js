@@ -48,5 +48,6 @@ function placeOrder(cardNumber) {
 }
 
 addToCart("apple")
+addToCart("apple 2")
 addToCart("nanan")
 viewCart();
