@@ -24,7 +24,7 @@ function viewCart() {
   let str = "In your cart, you have "
   for(let item in cart) {
     if(item == 0) {
-      str += `${Object.keys(cart[item])[0]} at $${cart[item]}}`
+      str += `${Object.keys(cart[item])[0]} at $${cart[item][Object.keys(cart[item])[0]]}}`
     } else if(item == cart.length - 1) {
 
     } else {
