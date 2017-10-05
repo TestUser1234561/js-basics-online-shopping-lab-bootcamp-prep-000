@@ -46,5 +46,5 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-addToCart("test")
+addToCart("apple")
 viewCart();
