@@ -52,6 +52,9 @@ function removeFromCart(item) {
       isRemoved = true;
     }
   }
+  if(!isRemoved) {
+    console.log("That item is not in your cart.");
+  }
 }
 
 function placeOrder(cardNumber) {
